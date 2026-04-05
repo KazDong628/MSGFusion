@@ -27,7 +27,7 @@
 
 ---
 
-**MSGFusion** is a **multimodal scene graph–guided** framework for **infrared–visible image fusion**: it couples **textual** and **visual** scene graphs, aggregates them hierarchically, and drives **graph-aware fusion**—improving detail/structure and downstream tasks such as **low-light detection** and **semantic segmentation**. **Code (as cited in the paper):** [BoweiDong18/MSGFusion](https://github.com/BoweiDong18/MSGFusion) · **this fork / mirror:** [KazDong628/MSGFusion](https://github.com/KazDong628/MSGFusion).
+**MSGFusion** is a **multimodal scene graph–guided** framework for **infrared–visible image fusion**: it couples **textual** and **visual** scene graphs, aggregates them hierarchically, and drives **graph-aware fusion**—improving detail/structure and downstream tasks such as **low-light detection** and **semantic segmentation**. 
 
 ## Table of contents
 
