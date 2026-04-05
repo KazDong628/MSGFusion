@@ -83,47 +83,7 @@ To overcome these challenges, we introduce **MSGFusion**, a multimodal scene gra
   <sub>Vector: <a href="figure/framework.pdf"><code>figure/framework.pdf</code></a></sub>
 </div>
 
-<details>
-<summary><strong>Optional: high-level flow (Mermaid)</strong></summary>
 
-```mermaid
-flowchart TB
-  subgraph Upstream["Upstream (external repos)"]
-    TSG[Textual side — CORA]
-    VSG[Visual side — Scene-Graph-Benchmark.pytorch]
-  end
-  subgraph Inputs["Inputs to this repo"]
-    IR[IR patch]
-    VIS[VIS patch]
-    GT[Precomputed G_t .pt]
-    GV[Precomputed G_v .pt]
-  end
-  subgraph Frozen["Frozen pretrained models"]
-    CLIP[OpenAI CLIP ViT-B/32]
-    DF[DenseFuse encoder]
-  end
-  subgraph TrainOnly["Training only"]
-    DFw[IR/VIS encoder activations]
-    W[Soft foreground weights]
-  end
-  TSG -.->|produces| GT
-  VSG -.->|produces| GV
-  GT --> CLIP
-  GV --> CLIP
-  CLIP --> Z[Five-token CLIP-space features]
-  Z --> AGG[Hierarchical cross-attention + injection]
-  IR --> DF
-  VIS --> DF
-  DF --> DFw --> W
-  IR --> B[Dual-stream window backbone]
-  VIS --> B
-  AGG --> B
-  B --> OUT[Fused image]
-  OUT --> L[Masked losses + local contrast]
-  W --> L
-```
-
-</details>
 
 ## Scene graph embedding preparation
 
