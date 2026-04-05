@@ -1,0 +1,46 @@
+# --- Local datasets & generated assets (host on Drive / Zenodo; see README) ---
+IVT_train_LLVIP/
+IVT_train_association/
+IVT_test_datasets/
+embeddings/
+
+# --- Checkpoints & training logs ---
+models/*.model
+models/**/*.model
+models/loss/
+
+# --- Large paper figures (README uses framework.* only) ---
+figure/*
+!figure/framework.pdf
+!figure/framework.png
+
+# --- Python / tooling ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# --- Jupyter / IDE ---
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Env (never commit) ---
+.env
+.venv/
+venv/
+env/
