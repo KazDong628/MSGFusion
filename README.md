@@ -51,7 +51,7 @@
 
 
 <details>
-<summary><strong>Expand full abstract (as in TGRS)</strong></summary>
+<summary><strong>Expand full abstract</strong></summary>
 
 <div align="left">
 
@@ -87,7 +87,7 @@ To overcome these challenges, we introduce **MSGFusion**, a multimodal scene gra
 
 ## Scene graph embedding preparation
 
-This section ties the **code release** to the **manuscript** ([`MSGFusion.pdf`](MSGFusion.pdf)): Fig. 2(a)–(b) and §B describe **textual** and **visual** scene graph representation before hierarchical aggregation.
+
 
 | Modality | Paper (summary) | Toolchain used here for embedding files |
 |----------|-----------------|----------------------------------------|
@@ -162,7 +162,7 @@ CLIP is provided under `third_party_clip/`; resolving imports to this tree avoid
 
 ### Hosted downloads (Google Drive / Google Cloud Storage)
 
-Large files are **not** committed to the repository. After you upload them, **replace** the placeholders below with public links (Drive “anyone with the link” or a public GCS object URL).
+
 
 | Asset | Contents | Link |
 |-------|----------|------|
