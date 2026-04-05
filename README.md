@@ -27,8 +27,7 @@
 
 ---
 
-**MSGFusion** couples **textual** and **visual** scene graphs, lifts them into a **shared semantic embedding space** , and uses that signal to drive an infrared–visible (IR–VIS) fusion network.
-
+**MSGFusion** (IEEE TGRS) is a **multimodal scene graph–guided** framework for **infrared–visible image fusion**: it couples **textual** and **visual** scene graphs, aggregates them hierarchically, and drives **graph-aware fusion**—improving detail/structure and downstream tasks such as **low-light detection** and **semantic segmentation**. **Code (as cited in the paper):** [BoweiDong18/MSGFusion](https://github.com/BoweiDong18/MSGFusion) · **this fork / mirror:** [KazDong628/MSGFusion](https://github.com/KazDong628/MSGFusion).
 
 ## Table of contents
 
@@ -49,12 +48,20 @@
 
 ## Abstract
 
+The text below matches the **IEEE Transactions on Geoscience and Remote Sensing** manuscript ([`TGRS_MSGFusion.pdf`](TGRS_MSGFusion.pdf)).
+
 <details>
-<summary><strong>Expand full abstract</strong></summary>
+<summary><strong>Expand full abstract (as in TGRS)</strong></summary>
+
+<div align="left">
 
 Infrared and visible image fusion has garnered considerable attention owing to the strong complementarity of these two modalities in complex, harsh environments. While deep learning–based fusion methods have made remarkable advances in feature extraction, alignment, fusion, and reconstruction, they still depend largely on low-level visual cues, such as texture and contrast, and struggle to capture the high-level semantic information embedded in images. Recent attempts to incorporate text as a source of semantic guidance have relied on unstructured descriptions that neither explicitly model entities, attributes, and relationships nor provide spatial localization, thereby limiting fine-grained fusion performance.
 
-To overcome these challenges, we introduce **MSGFusion**, a multimodal scene graph–guided fusion framework for infrared and visible imagery. By deeply coupling structured scene graphs derived from text and vision, MSGFusion explicitly represents entities, attributes, and spatial relations, and then synchronously refines high-level semantics and low-level details through successive modules for scene graph representation, hierarchical aggregation, and graph-driven fusion. Extensive experiments on multiple public benchmarks show that MSGFusion significantly outperforms state-of-the-art approaches, particularly in detail preservation and structural clarity, and delivers superior semantic consistency and generalizability in downstream tasks such as low-light object detection and semantic segmentation.
+To overcome these challenges, we introduce **MSGFusion**, a multimodal scene graph–guided fusion framework for infrared and visible imagery. By deeply coupling structured scene graphs derived from text and vision, MSGFusion explicitly represents entities, attributes, and spatial relations, and then synchronously refines high-level semantics and low-level details through successive modules for scene graph representation, hierarchical aggregation, and graph-driven fusion. Extensive experiments on multiple public benchmarks show that MSGFusion significantly outperforms state-of-the-art approaches, particularly in detail preservation and structural clarity, and delivers superior semantic consistency and generalizability in downstream tasks such as low-light object detection and semantic segmentation. **Code is available at:** [https://github.com/BoweiDong18/MSGFusion](https://github.com/BoweiDong18/MSGFusion).
+
+**Index Terms (TGRS):** Infrared-visible image fusion, multimodal scene graph, visual scene graph, textual scene graph.
+
+</div>
 
 </details>
 
