@@ -27,14 +27,8 @@
 
 ---
 
-**MSGFusion** couples **textual** and **visual** scene graphs, lifts them into a **shared semantic embedding space** (aligned with **CLIP** in our implementation), and uses that signal to drive an infrared–visible (IR–VIS) fusion network—matching the story in the [paper](MSGFusion.pdf) (Fig. 2, Eq. (1)).
+**MSGFusion** couples **textual** and **visual** scene graphs, lifts them into a **shared semantic embedding space** , and uses that signal to drive an infrared–visible (IR–VIS) fusion network.
 
-**Embedding preparation (upstream, not reimplemented here):**
-
-- **Visual scene graph embeddings** (`G_v`) are produced with the **[Scene-Graph-Benchmark.pytorch](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch)** codebase ([Tang et al., CVPR 2020](https://openaccess.thecvf.com/content_CVPR_2020/html/Tang_Unbiased_Scene_Graph_Generation_From_Biased_Training_CVPR_2020_paper.html))—a widely used PyTorch SGG toolkit built on Faster R-CNN / ROI reasoning, consistent with the paper’s visual branch (object proposals, ROI features, graph reasoning; cf. Fig. 2(b) and §B.1).
-- **Textual scene graph embeddings** (`G_t`) are produced with **[CORA](https://github.com/tgxs002/CORA)** ([Wu et al., CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Wu_CORA_Adapting_CLIP_for_Open-Vocabulary_Detection_With_Region_Prompting_and_CVPR_2023_paper.html)). Follow that repository for exact preprocessing; the tensors under `embeddings/caption_*` are the **text-side** vectors consumed by this project (see [Scene graph embedding preparation](#scene-graph-embedding-preparation)).
-
-This repository contains the **fusion network, training, and evaluation** given precomputed `.pt` embedding banks.
 
 ## Table of contents
 
