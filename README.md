@@ -48,7 +48,7 @@
 
 ## Abstract
 
-The text below matches the **IEEE Transactions on Geoscience and Remote Sensing** manuscript ([`TGRS_MSGFusion.pdf`](TGRS_MSGFusion.pdf)).
+
 
 <details>
 <summary><strong>Expand full abstract (as in TGRS)</strong></summary>
