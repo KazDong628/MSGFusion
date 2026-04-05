@@ -4,18 +4,14 @@
 <h3>Multimodal Scene Graph–Guided Infrared and Visible Image Fusion</h3>
 
 <p>
-  <a href="mailto:dbw@stu.ouc.edu.cn">Bowei Dong</a><sup>1,†,*</sup> &nbsp;·&nbsp;
-  <a href="mailto:guihuilee@stu.ouc.edu.cn">Guihui Li</a><sup>2,†</sup> &nbsp;·&nbsp;
-  <a href="mailto:dongkaizhi@stu.ouc.edu.cn">Kaizhi Dong</a><sup>1</sup> &nbsp;·&nbsp;
-  <a href="mailto:jiayilee@stu.ouc.edu.cn">Jiayi Li</a><sup>2</sup>
+  <a href="mailto:guihuilee@ouc.edu.cn">Guihui Li</a><sup></sup> &nbsp;·&nbsp;
+  <a href="mailto:dbw@ouc.edu.cn">Bowei Dong</a><sup></sup> &nbsp;·&nbsp;
+  <a href="mailto:dongkaizhi@ouc.edu.cn">Kaizhi Dong</a><sup></sup> &nbsp;·&nbsp;
+  <a href="mailto:jiayilee@ouc.edu.cn">Jiayi Li</a><sup></sup>&nbsp;·&nbsp;
+  <a href="mailto:zhenghaiyong@ouc.edu.cn">Haiyong Zheng</a><sup></sup>
 </p>
 
-<p>
-  <sup>1</sup>College of Computer Science and Technology, Ocean University of China<br>
-  <sup>2</sup>College of Electronic Engineering, Ocean University of China
-</p>
 
-<p><sup>†</sup>Equal contribution &nbsp;·&nbsp; <sup>*</sup>Corresponding author</p>
 
 <p>
   <!-- After public release, uncomment and fill in:
